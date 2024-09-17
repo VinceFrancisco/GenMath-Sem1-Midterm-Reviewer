@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="genmath1-1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviewer Gen Math</title>
+  </head>
+  <body>
+      <nav id="navbar">
+        <header id="sidebar-header">
+        <h3>TOPICS</h3>
+        </header>
+        <ul>
+          <li class="chapter"><a class="nav-link" href="#Chapter_1">Chapter Test 1</a></li>
+          <li class="topic"><a class="nav-link" href="#Functions">Functions</a></li>
+          <li class="topic"><a class="nav-link" href="#Evaluating">Evaluating Functions</a></li>
+          <li class="topic"><a class="nav-link" href="#Operations">Operations</a></li>
+          <li class="topic"><a class="nav-link" href="#Word_Problems">Word Problems</a></li>
+          <li class="chapter"><a class="nav-link" href="#Chapter_2">Chapter Test 2</a></li>
+          <li class="topic"><a class="nav-link" href="#Intercepts">x and y Intercepts</a></li>
+          <li class="topic"><a class="nav-link" href="#Asymptotes">Asymptotes</a></li>
+          <li class="topic"><a class="nav-link" href="#Domain_and_Range">Domain and Range</a></li>
+        </ul>
+      </nav>
 
+    <main id="main-doc">
+      <h1>Gen Math 11 1st Semester Midterm Reviewer</h1>
+      <section id="Chapter_1">
+        <h1>Chapter 1 Lessons</h1>
+      </section>
+      <section id="Functions">
+        <h2>Functions</h2>
+      </section>
+      <section id="Evaluating">
+        <h2>Evaluating Functions</h2>
+      </section>
+      <section id="Operations">
+        <h2>Performing Operations on Functions</h2>
+      </section>
+      <section id="Word_Problems">
+        <h2>Word Problems Involving Functions</h2>
+      </section>
+      <section id="Chapter_2">
+        <h1>Chapter 2 Lessons</h1>
+      </section>
+      <section id="Intercepts">
+        <h2>x and y Intercepts</h2>
+        <p>To find the x intercept, substitute y to 0.</p>
+        <p>To find the y intercept, substitute x to 0.</p>
+        <code>x² + 4x + 5 = y
+
+0² - 4(0) + 5 = y
+y = -5
+y int (0, -5)
+
+x² + 4x + 5 = 0
+(x + 4)(x + 1) = 0
+x = -4 and -1
+x int (-4, 0) and (-1, 0)
+        </code>
+         <code class="topcut">
+            y = <span class="frac"><span class="numerator">x² - 7x + 12</span><span class="denominator">3x² - 48</span></span>
+            y = <span class="frac"><span class="numerator">(0)² - 7(0) + 12</span><span class="denominator">3(0)² - 48</span></span>
+            y = <span class="frac"><span class="numerator">12</span><span class="denominator">-48</span></span>
+            y = <span class="frac"><span class="numerator">-1</span><span class="denominator">4</span></span>
+            y int (0, <span class="frac"><span class="numerator">-1</span><span class="denominator">4</span></span>)
+            
+            0 = <span class="frac"><span class="numerator">x² - 7x + 12</span><span class="denominator">3x² - 48</span></span>
+            0 = x² - 7x + 12
+            (x - 6)(x - 1) = 0
+            x = 6 and 1
+            x int (6, 0) and (1, 0)
+         </code>
+      </section>
+      <section id="Asymptotes">
+        <h2>Asymptotes</h2>
+        <h3 id="VA">Vertical Asymptote (VA)</h3>
+        <p>To find VA, equate the denominator to 0. If the given is not a fraction, there is no VA.</p>
+        <code>y = <span class="frac"><span class="numerator">x² - 7x + 12</span><span class="denominator">3x² - 48</span></span>
+        3x² - 48 = 0
+        x² - 16 = 0
+        x² = 16
+        VA: x = ±4
+        </code>
+        <h3>Horizontal Asymptote (HA)</h3>
+        <p>If degree of denominator is greater than numerator HA is y = 0</p>
+        <code id="HA1">y = <span class="frac"><span class="numerator">3x + 12</span><span class="denominator">x² + 16</span></span>
+        HA: y = 0
+        </code>
+        <p>If degree of numerator and denominator is equal, divide highest degree</p>
+        <code id="HA2">y = <span class="frac"><span class="numerator">x² - 7x + 12</span><span class="denominator">3x² - 48</span></span>
+        y = <span class="frac"><span class="numerator">x²</span><span class="denominator">3x²</span></span>
+       HA: y = <span class="frac"><span class="numerator">1</span><span class="denominator">3</span></span>   
+        </code>
+        <p>If the degree of numerator is greater than denominator or if the given is not a fraction, there is no HA</p>
+        <h3 id="OA">Oblique Asymptote (OA)</h3>
+        <p>Only if the degree of numerator is greater than denominator</p>
+        <p id="OA">To find the OA divide the fraction using synthetic or long division but do not include the remainder.</p>
+        <code>y = <span class="frac"><span class="numerator">2x² - 5x + 14</span><span class="denominator">x - 3</span></span>
+            <span class="synthetic">3</span>2 -5 14
+            <span class ="synthetic_solution">6 3</span>
+            <span class="synthetic_ans">2 <span class="left_margin"></span>1 17</span></span>
+            OA: y = 2x + 1
+        </code>
+      </section>
+      <section id="Domain_and_Range">
+        <h2>Domain and Range</h2>
+        <h3>Domain</h3>
+        <p>Vertical asymptote but ≠</p>
+        <code>y = <span class="frac"><span class="numerator">x² - 7x + 12</span><span class="denominator">3x² - 48</span></span>
+        <a href="#VA">VA: x = ±4</a>
+        Domain : x ∈ ℝ | x≠±4 or (-∞, ±4) U (±4, ∞)
+        </code>
+        <h3>Range</h3>
+        <p>Horizontal asymptote but ≠</p>
+        <code>y = <span class="frac"><span class="numerator">3x + 12</span><span class="denominator">x² + 16</span></span>
+        <a href="#HA1">HA: y = 0</a>   
+        Range : x ∈ ℝ | x≠0 
+        or (-∞, 0) U (0, ∞)  
+        </code>
+        <code>y = <span class="frac"><span class="numerator">x² - 7x + 12</span><span class="denominator">3x² - 48</span></span>
+                  <a href="#HA2">HA: y = <span class="frac"><span class="numerator">1</span><span class="denominator">3</span></span></a>
+       Range : x ∈ ℝ | x≠<span class="frac"><span class="numerator">1</span><span class="denominator">3</span></span> or (-∞, <span class="frac"><span class="numerator">1</span><span class="denominator">3</span></span>) U (<span class="frac"><span class="numerator">1</span><span class="denominator">3</span></span>, ∞)  
+        </code>
+        <p>Oblique asymptote range is always (-∞, ∞)</p>
+      </section>
+    </main>
+  
+</body>
+</html>
