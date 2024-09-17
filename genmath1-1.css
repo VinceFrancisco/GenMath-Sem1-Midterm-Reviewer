@@ -97,17 +97,17 @@ code {
 }
 
 section:first-child {
-  scroll-margin-top: 100px;
+  scroll-margin-top: 10px;
 }
 
 section {
-  scroll-margin-top: 65px;
+  scroll-margin-top: 10px;
   border-bottom: solid 1px gray;
   margin-bottom: 20px;
 }
 
 section:first-of-type {
-  scroll-margin-top: 65px;
+  scroll-margin-top: 10px;
   border-bottom: none;
   margin-bottom: 20px;
 }
