@@ -1,1 +1,195 @@
+html {
+    scroll-behavior: smooth;
+}
 
+ul {
+  list-style-type: none;
+}
+
+#main_doc_bullets {
+  list-style-type: circle;
+}
+
+a {
+  color: yellow;
+}  
+  
+nav {
+  width: 60%;
+  height: 50px;
+}
+
+#navbar {
+  color: yellow;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  background-color: purple;
+  border: solid 2px black;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+nav header {
+  width: 200px;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+#navbar ul {
+  padding-inline-start: 0;
+  overflow: scroll;
+  height: 100%;
+  text-decoration: none;
+}
+
+#navbar ul li {
+  margin-bottom: 10px;
+}
+
+.topic {
+  border-top: solid 1px black;
+  padding-top: 10px;
+}
+
+.chapter {
+  border-top: solid 1px black;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 1.05rem
+}
+
+main {
+  margin-right: 10px;
+  margin-left: 215px;
+}
+
+.hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+code {
+  font-size: 1.04em;
+  background-color: #f7f7f7;
+  padding: 15px;
+  display: block;
+  margin-bottom: 1em;
+  white-space: pre-line;
+  scroll-margin-top: 50px;
+}
+
+#main-doc header{
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+section:first-child {
+  scroll-margin-top: 100px;
+}
+
+section {
+  scroll-margin-top: 65px;
+  border-bottom: solid 1px gray;
+  margin-bottom: 20px;
+}
+
+section:first-of-type {
+  scroll-margin-top: 65px;
+  border-bottom: none;
+  margin-bottom: 20px;
+}
+
+#main-doc p {
+  font-size: 1.08em;
+}
+
+.frac {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+}
+.frac span.numerator {
+    display: block;
+    padding: 0.1em;
+    border-bottom: thin solid black
+}
+.frac span.denominator {
+    border-top: thin solid black;
+}
+
+a .frac span.denominator {
+    border-top: thin solid green;
+}
+
+a .frac span.numerator {
+    border-bottom: thin solid green;
+}
+
+.topcut {
+    padding-top: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.synthetic {
+    border-bottom: thin solid black;
+    border-right: thin solid black;
+    margin-right: 5px;
+}
+
+.synthetic_ans {
+    margin-left: 15px;
+    border-top: thin solid black;
+}
+
+.synthetic_solution {
+    margin-left: 40px;
+}
+
+.left_margin {
+    margin-left: 7px;
+}
+
+main a {
+ color: green;
+}
+
+@media only screen and (max-width: 720px){
+
+  #navbar {
+    width: 100px;
+    font-size: 0.85rem;
+  }
+
+  #sidebar-header {
+    width: 100px;
+    font-size: 0.85rem;
+  }
+
+  .chapter {
+    font-size: 0.85rem;
+    width: 100px;
+  }
+
+  #main-doc {
+    margin-left: 115px;
+    font-size: 0.85rem;
+  }
+}
