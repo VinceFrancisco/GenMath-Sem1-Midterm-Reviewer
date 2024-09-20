@@ -205,40 +205,27 @@ main a {
   }
 }
 
-.dark-mode-toggle {
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  background-color: #ccc;
-  padding: 10px;
-  border-radius: 20px;
+#dark-mode-toggle:checked + #body-wrap #navbar {
+    background-color: black;
+    color: white;
+    border: solid 2px white;
 }
 
-.dark-mode-toggle label {
-  cursor: pointer;
+#dark-mode-toggle:checked + #body-wrap #main-doc {
+    background-color: #222;
+    color: white;
 }
 
-#dark-mode-toggle:checked ~ #everything #navbar {
-  background-color: black;
-  color: white;
-  border: solid 2px white;
+#dark-mode-toggle:checked + #body-wrap code {
+    background-color: #333;
+    color: #f1f1f1;
 }
 
-#dark-mode-toggle:checked ~ #everything #main-doc {
-  background-color: #222;
-  color: white;
+#dark-mode-toggle:checked + #body-wrap #navbar a,
+#dark-mode-toggle:checked + #body-wrap #main-doc a {
+    color: lightblue;
 }
 
-#dark-mode-toggle:checked ~ #everything code {
-  background-color: #333;
-  color: #f1f1f1;
-}
-
-#dark-mode-toggle:checked ~ #everything #navbar a,
-#dark-mode-toggle:checked ~ #everything #main-doc a {
-  color: lightblue;
-}
-
-#dark-mode-toggle:checked ~ #everything {
-  background-color: #121212;
+#dark-mode-toggle:checked + #body-wrap {
+    background-color: #121212;
 }
