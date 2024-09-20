@@ -112,6 +112,10 @@ section:first-of-type {
   margin-bottom: 20px;
 }
 
+section:last-of-type {
+  border-bottom: none;
+}
+
 #main-doc p {
   font-size: 1.08em;
 }
