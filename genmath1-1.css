@@ -204,3 +204,64 @@ main a {
     width: 50%;
   }
 }
+
+.dark-mode-toggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #ccc;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.dark-mode-toggle label {
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked ~ #navbar {
+  background-color: black;
+  color: white;
+  border: solid 2px white;
+}
+
+input[type="checkbox"]:checked ~ #main-doc {
+  background-color: #222;
+  color: white;
+}
+
+input[type="checkbox"]:checked ~ #navbar a,
+input[type="checkbox"]:checked ~ #main-doc a {
+  color: lightblue;
+}
+
+input[type="checkbox"]:checked ~ body {
+  background-color: #121212;
+}
+
+/* Other elements in dark mode can follow similar patterns */
+
+
+input[type="checkbox"]:checked ~ #navbar {
+  background-color: black;
+  color: white;
+  border: solid 2px white;
+}
+
+input[type="checkbox"]:checked ~ #main-doc {
+  background-color: #222;
+  color: white;
+}
+
+input[type="checkbox"]:checked ~ code {
+  background-color: #333;
+  color: #f1f1f1
+}
+
+input[type="checkbox"]:checked ~ #navbar a,
+input[type="checkbox"]:checked ~ #main-doc a {
+  color: lightblue;
+}
+
+input[type="checkbox"]:checked ~ body {
+  background-color: #121212;
+}
