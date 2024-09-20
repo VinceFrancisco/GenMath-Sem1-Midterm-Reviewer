@@ -193,3 +193,10 @@ main a {
     font-size: 0.85rem;
   }
 }
+
+@media only screen and (min-width: 721px){
+  
+  code {
+    width: 50%;
+  }
+}
