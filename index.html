@@ -12,12 +12,11 @@
         <h3>TOPICS</h3>
         </header>
         <ul>
-          <li class="chapter"><a class="nav-link" href="#Chapter_1">Chapter Test 1</a></li>
           <li class="topic"><a class="nav-link" href="#Functions">Functions</a></li>
           <li class="topic"><a class="nav-link" href="#Evaluating">Evaluating Functions</a></li>
           <li class="topic"><a class="nav-link" href="#Operations">Operations</a></li>
           <li class="topic"><a class="nav-link" href="#Word_Problems">Word Problems</a></li>
-          <li class="chapter"><a class="nav-link" href="#Chapter_2">Chapter Test 2</a></li>
+          <li class="topic"><a class="nav-link" href="#Inequalities">Inequalities</a></li>
           <li class="topic"><a class="nav-link" href="#Intercepts">x and y Intercepts</a></li>
           <li class="topic"><a class="nav-link" href="#Asymptotes">Asymptotes</a></li>
           <li class="topic"><a class="nav-link" href="#Domain_and_Range">Domain and Range</a></li>
@@ -26,23 +25,100 @@
 
     <main id="main-doc">
       <h1>Gen Math 11 1st Semester Midterm Reviewer</h1>
-      <section id="Chapter_1">
-        <h1>Chapter 1 Lessons</h1>
-      </section>
       <section id="Functions">
         <h2>Functions</h2>
+          <p><span class="bold">Function</span> is a relation wherein each element of the domain is related to one value in the range.</p>
+          <p>Domain is denoted as x</p>
+          <p>Range is denoted as y</p>
+        <h3>Determining if an equation or graph is a function or not</h3>
+          <ol>
+            <li>The value of domain should not be repeated.</li>
+            <li>If a domain has no relation, it is not a function.</li>
+            <li>A single domain can only be related to a single range.</li>
+            <li>If an equation has y², it is not a function.</li>
+            <li>If you draw a vertical line in a graph and there is two or more intersections, it is not a function.</li>
+            <li>Domain or Range can be written as letters in examples.</li>
+          </ol>
+          <code>5y = 3x² - 2x + 1 - FUNCTION
+          T = [(0, 2), (1, 5), (1, 6), (10, 11)] - Not function because domain "1" got repeated</code>
+          <img id="pic1" src="pic1.png">
+          <code id="pic1_ans">Not function because vertical line intersects two points.</code>
+          <img id="pic2" src="pic2.png">
+          <code id="pic2_ans">Not function because domain 3 has two relations</code>
+        <h3>Special Symbols for Evaluating Functions</h3>
+        <p>⌊x⌋ floor meaning to take the decimal number and round it down to the lower whole number</p>
+        <p>⌈x⌉ ceiling meaning to take the decimal number and round off to the higher whole number</p>
+        <p>|x| absolute value where the value is always positive</p>
       </section>
       <section id="Evaluating">
         <h2>Evaluating Functions</h2>
+        <p>f(x) substitute value of x</p>
+        <code>f(-2.5) = 6⌊x⌋ + 4x + 20
+          f(-2.5) = 6⌊-2.5⌋ + 4(-2.5) + 20
+          f(-2.5) = 6(-3) + 4(-2.5) + 20
+          f(-2.5) = -18 - 10 + 20
+          f(-2.5) = -8
+        </code>
+        <h3>Piecewise Function</h3>
+        <img id="pic3" src="pic3.png">
+        <code>f(3) because 3 is greater than 0 use the function corresponding to the x > 0 if statement
+          f(3) = 3 + 3
+          f(3) = 6
+        </code>
+        <code>f(-5) because 5 is less than 0, use the function corresponding to the x ≤ 0
+          f(-5) = -(-5)
+          f(-5) = 5
+        </code>
       </section>
       <section id="Operations">
         <h2>Performing Operations on Functions</h2>
+          <h3>Addition</h3>
+            <p>Add like terms</p>
+            <code>2x + 4 + 6x + 13
+              8x + 17
+            </code>
+          <h3>Subtraction</h3>
+            <p>Distribute the negative sign then combine like terms</p>
+            <code>[2x² + 6x + 6] - [x² + 4x + 1]
+              2x² + 6x + 6 - x² - 4x - 1
+              x² + 2x - 5
+            </code>
+          <h3>Multiplication</h3>
+            <p>Distribute the multiplier</p>
+            <p>When multiplying with exponents, the exponent is added during distribution</p>
+            <code>(2x²)(x - 9)
+              2x³ - 18x²
+            </code>
+            <code>Given: h(x) = 2x² f(x) = x - 1
+
+            h(f(x))
+
+            2(x - 1)²
+            2(x² - 2x + 1)
+            2x² - 4x + 2
+            </code>
+          <h3>Division</h3>
+            <h4>Dividing 2 monomials</h4>
+              <p>When dividing with exponents, the exponent is subtracted during division</p>
+              <code><span class="frac"><span class="numerator">4x³</span><span class="denominator">2x²</span></span> = 2x</code>
+            <h4>Synthetic Division</h4>
+              <p>Remainder or r is added at the end and is written as <span class="frac"><span class="numerator">r</span><span class="denominator">divisor or denominator</span></span></p>
+              <code id="OA">y = <span class="frac"><span class="numerator">2x² - 5x + 14</span><span class="denominator">x - 3</span></span>
+                <span class="synthetic">3</span>2 -5 14
+                <span class ="synthetic_solution">6 3</span>
+                <span class="synthetic_ans">2 <span class="left_margin"></span>1 17</span></span>
+                2x + 1 + <span class="frac"><span class="numerator">17</span><span class="denominator">x - 3</span></span>
+              </code>
+            <h4>Long Division</h4>
+            <img id="pic4" src="pic4.png">
       </section>
       <section id="Word_Problems">
         <h2>Word Problems Involving Functions</h2>
+        <p>The cost of hiring a catering service to serve food for a party is 150php per head for 20 persons or less, 130php per head for 21-50 persons, 110php per head for 51-100 persons, 100php per head for more than 100 persons. Create a piecewise function.</p>
+        <img id="pic5" src="pic5.png">
       </section>
-      <section id="Chapter_2">
-        <h1>Chapter 2 Lessons</h1>
+      <section id="Inequalities">
+        <h2>Functions With Inequalities</h2>
       </section>
       <section id="Intercepts">
         <h2>x and y Intercepts</h2>
