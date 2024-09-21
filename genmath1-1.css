@@ -244,4 +244,7 @@ code {
   margin-top: -10px;
   margin-bottom: 5px;
 }
+p {
+  max-width: 70%;
+}
 }
