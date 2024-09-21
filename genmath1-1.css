@@ -244,7 +244,7 @@ code {
   margin-top: -10px;
   margin-bottom: 5px;
 }
-p {
+#word_problem_question {
   max-width: 70%;
 }
 }
